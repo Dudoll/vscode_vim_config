@@ -19,6 +19,9 @@ nmap <silent> <leader>wl workbench.action.moveEditorToNextGroup
 nmap <silent> <c-l> :bn<cr>
 nmap <silent> <c-h> :bp<cr>
 
+"" find files
+nmap <leader>f workbench.action.quickOpen
+
 "" group
 " map <a-h> workbench.action.focusLeftGroup
 " map <a-l> workbench.action.focusRightGroup
