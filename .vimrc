@@ -19,8 +19,11 @@ nmap <silent> <leader>wl workbench.action.moveEditorToNextGroup
 nmap <silent> <c-l> :bn<cr>
 nmap <silent> <c-h> :bp<cr>
 
-"" find files
-nmap <leader>f workbench.action.quickOpen
+"" show
+nmap <silent> <leader>sf workbench.action.quickOpen
+nmap <silent> <leader>sb workbench.action.toggleActivityBarVisibility
+nmap <silent> <leader>ss workbench.action.toggleSidebarVisibility
+nmap <silent> <leader>so outline.focus
 
 "" group
 " map <a-h> workbench.action.focusLeftGroup
