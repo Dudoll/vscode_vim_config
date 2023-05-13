@@ -3,9 +3,12 @@ let mapleader=","
 map <Leader>r :set rnu!<CR>
 nmap <c-e> %
 
+inoremap kj <esc>
 inoremap <leader>a <Right>
 inoremap <leader>d <esc>diw
 inoremap <leader>c <esc>ciw
+inoremap <c-e> <esc>A
+inoremap <c-a> <esc>I
 noremap <leader>s <esc>S
 
 noremap L $
