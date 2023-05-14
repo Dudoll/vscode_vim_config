@@ -4,8 +4,8 @@ map <Leader>r :set rnu!<CR>
 nmap <c-e> %
 
 inoremap kj <esc>
-inoremap <leader>a <Right>
-inoremap <leader>d <esc>diw
+inoremap <leader>a <Left>
+inoremap <leader>d <Right>
 inoremap <leader>c <esc>ciw
 inoremap <c-e> <esc>A
 inoremap <c-a> <esc>I
