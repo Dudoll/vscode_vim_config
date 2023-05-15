@@ -10,6 +10,8 @@ inoremap <leader>c <esc>ciw
 inoremap <c-e> <esc>A
 inoremap <c-a> <esc>I
 noremap <leader>s <esc>S
+" copy this file
+noremap <c-y> mZgg9999yy'Z:delmarks Z<cr>
 
 noremap L $
 noremap H ^
