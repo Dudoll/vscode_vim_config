@@ -2,6 +2,7 @@ let mapleader=","
 
 map <Leader>r :set rnu!<CR>
 nmap <c-e> %
+map <c-y> mSgg9999yy'S:delmarks S<cr>
 
 inoremap kj <esc>
 inoremap <leader>a <Left>
