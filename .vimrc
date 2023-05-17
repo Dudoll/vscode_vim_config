@@ -2,7 +2,6 @@ let mapleader=","
 
 map <Leader>r :set rnu!<CR>
 nmap <c-e> %
-map <c-y> mSgg9999yy'S:delmarks S<cr>
 
 inoremap kj <esc>
 inoremap <leader>a <Left>
@@ -12,7 +11,7 @@ inoremap <c-e> <esc>A
 inoremap <c-a> <esc>I
 noremap <leader>s <esc>S
 " copy this file
-noremap <c-y> mZgg9999yy'Z:delmarks Z<cr>
+noremap <c-y> mSgg9999yy'S:delmarks S<cr>
 
 noremap L $
 noremap H ^
