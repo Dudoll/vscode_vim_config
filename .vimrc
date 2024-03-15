@@ -4,6 +4,7 @@ nnoremap <c-e> %
 vnoremap <c-e> %
 nmap <leader>gu gUw
 
+inoremap kj <esc>
 inoremap <leader>a <Left>
 inoremap <leader>d <Right>
 inoremap <leader>c <esc>ciw
