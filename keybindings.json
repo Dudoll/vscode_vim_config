@@ -114,4 +114,19 @@
         "command": "workbench.action.closePanel",
         "when": "terminalFocus"
     },
+    {
+        "key": "ctrl+alt+b",
+        "command": "notebook.cell.insertCodeCellBelow",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "notebook.cell.insertCodeCellAbove",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+enter",
+        "command": "notebook.cell.executeAndInsertBelow",
+        "when": "notebookEditorFocused"
+    }
 ]
