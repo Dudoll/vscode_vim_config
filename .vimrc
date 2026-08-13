@@ -29,17 +29,17 @@ nmap <leader>sl workbench.action.moveEditorToNextGroup
 nmap <c-h> workbench.action.focusLeftGroup
 nmap <c-l> workbench.action.focusRightGroup
 
-" re-define <c-d> and <c-k>
-nmap <c-d> 5j
-nmap <c-u> 5k
-
 " go back/forward
 nmap <c-y> workbench.action.navigateForward
 nmap <c-t> workbench.action.navigateBack
 
-" highlight variable
-nmap <leader>h highlight.selectedWords
-nmap <leader>H highlight.clearWords
+" highlight variables / keywords (Multi-Highlight)
+nmap <leader>h multi-highlight.toggleHighlight
+nmap <leader>H multi-highlight.clearHighlights
+
+" markdown reading
+nmap <leader>mp markdown.showPreviewToSide
+nmap <leader>mv markdown.showPreview
 
 "" show
 nmap <leader>f  workbench.action.quickOpen

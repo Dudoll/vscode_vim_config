@@ -1,0 +1,130 @@
+{
+    // ============================================================
+    // Font and theme
+    // ============================================================
+
+    "editor.fontFamily": "'JetBrains Mono', Consolas, monospace",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 23,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": false,
+    "editor.letterSpacing": 0,
+
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.semanticHighlighting.enabled": true,
+
+
+    // ============================================================
+    // Reading layout
+    // ============================================================
+
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "editor.scrollBeyondLastLine": false,
+    "editor.smoothScrolling": true,
+    "editor.renderLineHighlight": "line",
+    "editor.renderWhitespace": "selection",
+    "editor.renderControlCharacters": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCount": 3,
+
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.matchBrackets": "always",
+
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.lineNumbers": "on",
+
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.hover.delay": 300,
+    "editor.codeLens": false,
+
+
+    // ============================================================
+    // VSCodeVim
+    // ============================================================
+
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "F:\\vscode_vim_config\\.vimrc",
+    "vim.leader": ",",
+
+    // 0 keeps native Vim half-page semantics for Ctrl+D / Ctrl+U.
+    "vim.scroll": 0,
+
+
+    // ============================================================
+    // Multi keyword highlighting
+    // ============================================================
+
+    "multi-highlight.colours": "#5C4B21:#F5D98B,#24445A:#9CDCFE,#4A365F:#D2A8FF,#314A34:#B7E4A4,#5A3038:#F3A0A8,#3A4D50:#9FE5EA",
+
+
+    // ============================================================
+    // Language-specific layout
+    // ============================================================
+
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.rulers": [88],
+        "editor.wordWrap": "off"
+    },
+
+    "[c]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 8,
+        "editor.rulers": [80, 100],
+        "editor.wordWrap": "off"
+    },
+
+    "[shellscript]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 8
+    },
+
+
+    // ============================================================
+    // Markdown source and preview
+    // ============================================================
+
+    "[markdown]": {
+        "editor.fontFamily": "'JetBrains Mono', 'Noto Sans SC', Consolas, monospace",
+        "editor.lineHeight": 26,
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 96,
+        "editor.wrappingIndent": "same",
+        "editor.renderWhitespace": "boundary",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.bracketPairColorization.enabled": false,
+        "editor.guides.bracketPairs": false,
+        "files.trimTrailingWhitespace": false
+    },
+
+    "markdown.preview.fontFamily": "'Noto Sans SC', 'Microsoft YaHei UI', 'Segoe UI', sans-serif",
+    "markdown.preview.fontSize": 16,
+    "markdown.preview.lineHeight": 1.75,
+    "markdown.preview.scrollPreviewWithEditor": true,
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.markEditorSelection": true,
+    "markdown.preview.doubleClickToSwitchToEditor": true,
+    "markdown.preview.breaks": false,
+    "markdown.updateLinksOnFileMove.enabled": "prompt",
+
+
+    // ============================================================
+    // Integrated terminal
+    // ============================================================
+
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.15
+}

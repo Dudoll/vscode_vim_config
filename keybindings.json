@@ -128,5 +128,15 @@
         "key": "ctrl+alt+enter",
         "command": "notebook.cell.executeAndInsertBelow",
         "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "multi-highlight.toggleHighlight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+h",
+        "command": "multi-highlight.clearHighlights",
+        "when": "editorTextFocus"
     }
 ]
