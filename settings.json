@@ -49,8 +49,6 @@
     // VSCodeVim
     // ============================================================
 
-    "vim.vimrc.enable": true,
-    "vim.vimrc.path": "F:\\vscode_vim_config\\.vimrc",
     "vim.leader": ",",
 
     // 0 keeps native Vim half-page semantics for Ctrl+D / Ctrl+U.
