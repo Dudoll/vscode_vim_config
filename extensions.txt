@@ -1,0 +1,5 @@
+chrisjdavies.multi-highlight
+davidanson.vscode-markdownlint
+vscodevim.vim
+yzhang.markdown-all-in-one
+zhuangtongfa.material-theme
